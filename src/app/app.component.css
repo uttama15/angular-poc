@@ -1,0 +1,10 @@
+.center {
+    margin: auto;
+    min-width: 50%;
+    max-width: 50%;
+}
+.container-center {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

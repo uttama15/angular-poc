@@ -1,0 +1,32 @@
+<div class="card text-center">
+    <div class="card-header">
+      Register
+    </div>
+    <div class="card-body">
+        <form>
+            <div class="row mb-3">
+              <label for="email" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="password" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="password">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="confirmPassword" class="col-sm-2 col-form-label">Confirm Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="confirmPassword">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign up</button>
+          </form>
+    </div>
+    <div class="card-footer">
+      <button type="button" class="btn btn-link" (click)="login()">Already Signed Up? Login Here...</button>
+      <button type="button" class="btn btn-link" (click)="notifyParent()">Notify Parent using @Output</button>
+    </div>
+  </div>
